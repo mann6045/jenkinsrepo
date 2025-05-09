@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: mp0668693gmail.com
+Build-Jdk: 21.0.6
+Created-By: Maven Integration for Eclipse
+Main-Class: com.man.first
+

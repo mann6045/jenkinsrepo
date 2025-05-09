@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: manclassjar-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: manclassjar
+  template:
+    metadata:
+      labels:
+        app: manclassjar
+    spec:
+      containers:
+      - name: manclassjar
+        image: mann6045/manclassjar:latest
+        ports:
+        - containerPort: 80
