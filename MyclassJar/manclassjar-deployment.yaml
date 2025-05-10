@@ -16,4 +16,4 @@ spec:
       - name: manclassjar
         image: mann6045/manclassjar:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8085
